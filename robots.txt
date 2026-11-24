@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alaberrahal.github.io/sitemap.xml
