@@ -8,3 +8,12 @@
 [hidden]{display:none!important}@media(max-width:760px){html:not(.js) .main-nav{display:flex;position:static;order:3;flex-basis:100%;padding:0}html:not(.js) .header-inner{height:auto;min-height:75px;flex-wrap:wrap;padding:15px 0}}
 
 .hero-description,.intro-copy p,.work-description,.detail-content,.skill-group p,.timeline p,.education p,.contact-section p,.section-top>p,.skills-heading p{font-size:1rem}.tags li{font-size:.75rem}.work-meta,.visual-label,.affiliation span,.eyebrow{font-size:.75rem}@media(max-width:760px){.hero .eyebrow,.work-meta,.affiliation span,.tags li,.footer{font-size:.75rem}.brand-sub{font-size:.6875rem}.hero-description,.intro-copy p,.work-description,.detail-content,.skill-group p,.timeline p,.education p,.contact-section p,.section-top>p,.skills-heading p{font-size:1rem}}
+
+/* Keep the original portrait unfiltered; use layout cropping only. */
+.hero-art.portrait-panel{flex-direction:column;gap:15px;padding:0 12px 0 32px;align-items:center;justify-content:center}
+.hero-art img.portrait{width:100%;max-width:345px;height:430px;object-fit:cover;object-position:50% 42%;margin:0;opacity:1;border:1px solid #73859a}
+.portrait-caption{font-size:.75rem;color:#b9c8d7;letter-spacing:.06em}
+.contact-email{font-size:1rem;overflow-wrap:anywhere;gap:12px}.contact-email span{flex-shrink:0}
+@media(max-width:1050px) and (min-width:761px){.hero-art img.portrait{height:360px}.hero-art.portrait-panel{padding-left:0}}
+@media(max-width:760px){.hero-art.portrait-panel{position:static;opacity:1;pointer-events:auto;width:100%;height:auto;padding:35px 0 0;align-items:flex-start}.hero-art img.portrait{width:190px;height:235px;object-position:50% 40%}.portrait-caption{font-size:.75rem}.hero-main{display:block}.contact-email{font-size:.9rem}}
+@media print{.hero-art.portrait-panel{display:none}}

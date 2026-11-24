@@ -6,7 +6,7 @@ A bilingual research portfolio presenting my background in **applied mathematics
 
 ## Content
 
-- Current position: Data Analysis Engineer, Université Clermont Auvergne, UMR 454 MEDiS, since November 2026.
+- Current position: Data Scientist, Université Clermont Auvergne, UMR 454 MEDiS, since November 2026.
 - INRAE internship: longitudinal metabolomics, mixed models / LMMS, multivariate analysis and clustering (2026).
 - LOCIE internship: probabilistic modelling of building energy performance (2025).
 - Methods, education and professional contact links.
